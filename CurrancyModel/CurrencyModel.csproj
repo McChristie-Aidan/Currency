@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Currency\MX\**" />
+    <EmbeddedResource Remove="Currency\MX\**" />
+    <None Remove="Currency\MX\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Currency\FiveCentavo.cs" />
+    <Compile Remove="Currency\FivePeso.cs" />
+    <Compile Remove="Currency\MXCoin.cs" />
+    <Compile Remove="Currency\MXCurrancyRepo.cs" />
+    <Compile Remove="Currency\OnePeso.cs" />
+    <Compile Remove="Currency\TenCentavo.cs" />
+    <Compile Remove="Currency\TenPeso.cs" />
+    <Compile Remove="Currency\TwentyCentavo.cs" />
+    <Compile Remove="Currency\TwentyPeso.cs" />
+  </ItemGroup>
+
+</Project>
