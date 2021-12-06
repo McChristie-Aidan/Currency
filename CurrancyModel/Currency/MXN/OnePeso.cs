@@ -8,5 +8,12 @@ namespace CurrencyModel.Currency.MX
 {
     internal class OnePeso : MXCoin
     {
+        double value = 1;
+        string name = "One Peso";
+
+        public OnePeso()
+        {
+            this.SetNewCoinValues(name, value);
+        }
     }
 }

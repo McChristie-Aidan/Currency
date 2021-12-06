@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5uxZrbvfT1i6Riv0+jie42QZOlt9+CzZgg5qZz5kO5UVLrdPu74ggTAnttCfuaEYh5UhMh7dVt1MYTVK7tw3rQ==",
+  "dgSpecHash": "6PO0b4HYNdi1D5oJAoNCJwtAlKU7RbDG8DBzBPxHXe4l2qqJhvsJFqV8CXvapbA+cY0fUOW2xRJh7bDOSBkecw==",
   "success": true,
   "projectFilePath": "C:\\Users\\redli\\source\\repos\\GitHubRepos\\Currency\\CurrancyTests\\CurrencyTests.csproj",
   "expectedPackageFiles": [
@@ -91,10 +91,7 @@
     "C:\\Users\\redli\\.nuget\\packages\\system.threading.tasks.extensions\\4.3.0\\system.threading.tasks.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\redli\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\redli\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\redli\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\redli\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\redli\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\redli\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+    "C:\\Users\\redli\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

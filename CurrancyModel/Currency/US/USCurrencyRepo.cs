@@ -8,7 +8,7 @@ namespace CurrencyModel.Currency.US
 {
     public class USCurrencyRepo : CurrencyRepo
     {
-        static USCoin[] everyCoin = new USCoin[] {
+        USCoin[] everyCoin = new USCoin[] {
             new DollarCoin(),
             new HalfDollar(),
             new Quarter(),
@@ -18,6 +18,13 @@ namespace CurrencyModel.Currency.US
 
         public USCurrencyRepo()
         {       
+            this.everyCoin = new USCoin[] {
+            new DollarCoin(),
+            new HalfDollar(),
+            new Quarter(),
+            new Dime(),
+            new Nickel(),
+            new Penny()};
         }
 
         new static public ICurrencyRepo CreateChange(double Amount)
@@ -40,9 +47,9 @@ namespace CurrencyModel.Currency.US
 
             while (loopHelper < differnce)
             {
-                if (loopHelper + everyCoin[i].MonetaryValue < differnce)
+                if (loopHelper + result.everyCoin[i].MonetaryValue < differnce)
                 {
-                    result.AddCoin(everyCoin[i]);
+                    result.AddCoin(new result.everyCoin[i]());
                 }
                 else
                 {

@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CurrancyModel",
+    "\\CurrancyModel\\Currency",
+    "\\CurrancyModel\\Currency\\MXN"
+  ],
+  "SelectedNode": "\\CurrancyModel\\Currency\\MXN\\TwentyPeso.cs",
+  "PreviewInSolutionExplorer": false
+}

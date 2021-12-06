@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TIXTcjza8PA94Anm56EMx3sSTO6gRi4nEm3iHsU+ND5PptPiegRZxI9NEHf1QM0CoNLhy+VohGj+MaqZfy0bSA==",
+  "dgSpecHash": "eqHRTMuRyIbrjS/YF0LiLvHJhkP7Dd8y6HmBHrVVTQEF8heMqvhcvdfG9U1rl/T816ij8yWHsal6zOTqy6XK3A==",
   "success": true,
   "projectFilePath": "C:\\Users\\redli\\source\\repos\\GitHubRepos\\Currency\\CurrancyModel\\CurrencyModel.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\redli\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512",
-    "C:\\Users\\redli\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\redli\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\redli\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

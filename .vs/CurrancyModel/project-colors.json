@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "37e53ec6-05a9-4579-8050-b316bc30eade": {
+      "ProjectGuid": "37e53ec6-05a9-4579-8050-b316bc30eade",
+      "DisplayName": "CurrencyModel",
+      "ColorIndex": 0
+    },
+    "d399f188-581f-4045-9999-9199e0113add": {
+      "ProjectGuid": "d399f188-581f-4045-9999-9199e0113add",
+      "DisplayName": "CurrencyTests",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

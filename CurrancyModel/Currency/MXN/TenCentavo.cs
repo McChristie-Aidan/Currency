@@ -8,5 +8,12 @@ namespace CurrencyModel.Currency.MX
 {
     internal class TenCentavo : MXCoin
     {
+        double value = .1;
+        string name = "Ten Centavo";
+
+        public TenCentavo()
+        {
+            this.SetNewCoinValues(name, value);
+        }
     }
 }
