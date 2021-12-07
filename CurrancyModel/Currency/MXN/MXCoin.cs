@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CurrencyModel.Currency.MX
+namespace CurrencyModel.Currency.MXN
 {
-    internal class MXCoin : Coin
+    public class MXCoin : Coin
     {
         new public string About()
         {

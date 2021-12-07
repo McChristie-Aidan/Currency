@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CurrencyModel.Currency.MX
+namespace CurrencyModel.Currency.MXN
 {
-    internal class FiveCentavo : MXCoin
+    public class FiftyCentavo : MXCoin
     {
-        double value = .05;
-        string name = "Five Centavo";
+        double value = 1;
+        string name = "Ten Peso";
 
-        public FiveCentavo()
+        public FiftyCentavo()
         {
             this.SetNewCoinValues(name, value);
         }

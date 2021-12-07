@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CurrencyModel.Currency.US
+namespace CurrencyModel.Currency.MXN
 {
-    public class USCurrencyRepo : CurrencyRepo
+    public class MXCurrencyRepo : CurrencyRepo
     {
 
-        public USCurrencyRepo()
-        {       
+        public MXCurrencyRepo()
+        {
         }
 
         new static public ICurrencyRepo CreateChange(double Amount)
@@ -20,7 +20,7 @@ namespace CurrencyModel.Currency.US
 
         new static public ICurrencyRepo CreateChange(double AmountTendered, double TotalCost)
         {
-            USCurrencyRepo result = new USCurrencyRepo();
+            MXCurrencyRepo result = new MXCurrencyRepo();
             double differnce = AmountTendered - TotalCost;
             double loopHelper = 0;
 
@@ -32,38 +32,38 @@ namespace CurrencyModel.Currency.US
 
             while (loopHelper < differnce)
             {
-                if (loopHelper + 1 <= differnce)
+                if (loopHelper + 20 <= differnce)
                 {
-                    result.AddCoin(new DollarCoin());
+                    result.AddCoin(new TwentyPeso());
+                    loopHelper += 20;
+                }
+                else if (loopHelper + 10 <= differnce)
+                {
+                    result.AddCoin(new TenPeso());
+                    loopHelper += 10;
+                }
+                else if (loopHelper + 5 <= differnce)
+                {
+                    result.AddCoin(new FivePeso());
+                    loopHelper += 5;
+                }
+                else if (loopHelper + 1 <= differnce)
+                {
+                    result.AddCoin(new OnePeso());
                     loopHelper += 1;
                 }
                 else if (loopHelper + .5 <= differnce)
                 {
-                    result.AddCoin(new HalfDollar());
+                    result.AddCoin(new FiftyCentavo());
                     loopHelper += .5;
-                }
-                else if (loopHelper + .25 <= differnce)
-                {
-                    result.AddCoin(new Quarter());
-                    loopHelper += .25;
-                }
-                else if (loopHelper + .10 <= differnce)
-                {
-                    result.AddCoin(new Dime());
-                    loopHelper += .10;
-                }
-                else if (loopHelper + .05 <= differnce)
-                {
-                    result.AddCoin(new Nickel());
-                    loopHelper += .05;
                 }
                 else
                 {
-                    result.AddCoin(new Penny());
-                    loopHelper += .01;
+                    result.AddCoin(new TwentyCentavo());
+                    loopHelper += .2;
                 }
             }
-                return result;
+            return result;
         }
     }
 }

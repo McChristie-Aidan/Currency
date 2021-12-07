@@ -8,7 +8,7 @@ namespace CurrancyModel
     {
         static void Main(string[] args)
         {
-            USCurrencyRepo.CreateChange(.06);
+            //USCurrencyRepo.CreateChange(.06);
         }
     }
 }

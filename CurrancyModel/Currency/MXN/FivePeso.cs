@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CurrencyModel.Currency.MX
+namespace CurrencyModel.Currency.MXN
 {
-    internal class FivePeso : MXCoin
+    public class FivePeso : MXCoin
     {
         double value = 5;
         string name = "Five Peso";
